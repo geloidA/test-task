@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DeckSorter/1.0.0": {
+        "dependencies": {
+          "Shuffler": "1.0.0"
+        },
+        "runtime": {
+          "DeckSorter.dll": {}
+        }
+      },
+      "Shuffler/1.0.0": {
+        "runtime": {
+          "Shuffler.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeckSorter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shuffler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
