@@ -10,3 +10,15 @@ C:\Users\sasha\source\repos\Shuffler\obj\Debug\net5.0\Shuffler.csproj.CoreCompil
 C:\Users\sasha\source\repos\Shuffler\obj\Debug\net5.0\Shuffler.dll
 C:\Users\sasha\source\repos\Shuffler\obj\Debug\net5.0\ref\Shuffler.dll
 C:\Users\sasha\source\repos\Shuffler\obj\Debug\net5.0\Shuffler.pdb
+C:\Users\sasha\source\repos\test-task\Shuffler\bin\Debug\net5.0\Shuffler.deps.json
+C:\Users\sasha\source\repos\test-task\Shuffler\bin\Debug\net5.0\Shuffler.dll
+C:\Users\sasha\source\repos\test-task\Shuffler\bin\Debug\net5.0\ref\Shuffler.dll
+C:\Users\sasha\source\repos\test-task\Shuffler\bin\Debug\net5.0\Shuffler.pdb
+C:\Users\sasha\source\repos\test-task\Shuffler\obj\Debug\net5.0\Shuffler.csproj.AssemblyReference.cache
+C:\Users\sasha\source\repos\test-task\Shuffler\obj\Debug\net5.0\Shuffler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\source\repos\test-task\Shuffler\obj\Debug\net5.0\Shuffler.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\test-task\Shuffler\obj\Debug\net5.0\Shuffler.AssemblyInfo.cs
+C:\Users\sasha\source\repos\test-task\Shuffler\obj\Debug\net5.0\Shuffler.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\test-task\Shuffler\obj\Debug\net5.0\Shuffler.dll
+C:\Users\sasha\source\repos\test-task\Shuffler\obj\Debug\net5.0\ref\Shuffler.dll
+C:\Users\sasha\source\repos\test-task\Shuffler\obj\Debug\net5.0\Shuffler.pdb
