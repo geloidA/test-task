@@ -7,62 +7,51 @@ namespace DeckSorter
 {
     public class DeckSorter
     {
-        private readonly Dictionary<string, Deck> orderedDecks;
-        private readonly Dictionary<string, Deck> shuffledDecks;
+        private readonly Dictionary<string, Deck> decks;
         private readonly IShuffleStrategy shuffleStrategy;
 
         public IEnumerable<string> DeckNames
         {
             get
             {
-                foreach (var deckName in orderedDecks)
-                    yield return deckName.Key;
+                foreach (var deck in decks)
+                    yield return deck.Key;
             }
         }
 
         public DeckSorter(IShuffleStrategy shuffleStrategy)
         {
-            orderedDecks = new Dictionary<string, Deck>();
-            shuffledDecks = new Dictionary<string, Deck>();
+            decks = new Dictionary<string, Deck>();
             this.shuffleStrategy = shuffleStrategy;
         }
 
         public void CreateDeck(string name)
         {
-            if (orderedDecks.ContainsKey(name))
+            if (decks.ContainsKey(name))
                 throw new Exception(name + "already exists");
             var deck = new Deck();
-            orderedDecks[name] = deck;
+            decks[name] = deck;
         }
 
         public bool RemoveDeck(string name)
         {
-            return orderedDecks.Remove(name) | shuffledDecks.Remove(name);
+            return decks.Remove(name);
         }
 
         public void ShuffleDeck(string name)
         {
-            if(!orderedDecks.ContainsKey(name))
+            if(!decks.ContainsKey(name))
                 throw new KeyNotFoundException(name);
-            var shuffledCards = orderedDecks[name].Cards.ToArray();
+            var shuffledCards = decks[name].Cards.ToArray();
             shuffleStrategy.Shuffle(shuffledCards);
-            shuffledDecks[name] = new Deck(shuffledCards);
+            decks[name] = new Deck(shuffledCards);
         }
 
-        public Deck GetOrderedDeck(string name)
+        public Deck GetDeck(string name)
         {
-            if (!orderedDecks.ContainsKey(name))
+            if (!decks.ContainsKey(name))
                 throw new KeyNotFoundException(name);
-            return orderedDecks[name];
-        }
-
-        public Deck GetShuffledDeck(string name)
-        {
-            if (!orderedDecks.ContainsKey(name))
-                throw new KeyNotFoundException(name);
-            if (!shuffledDecks.ContainsKey(name))
-                ShuffleDeck(name);
-            return shuffledDecks[name];
+            return decks[name];
         }
     }
 }

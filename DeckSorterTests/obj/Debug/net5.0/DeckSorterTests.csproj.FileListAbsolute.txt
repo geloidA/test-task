@@ -108,3 +108,12 @@ C:\Users\sasha\source\repos\DeckSorterTests\bin\Debug\net5.0\DeckSorter.deps.jso
 C:\Users\sasha\source\repos\DeckSorterTests\bin\Debug\net5.0\DeckSorter.runtimeconfig.json
 C:\Users\sasha\source\repos\DeckSorterTests\bin\Debug\net5.0\DeckSorter.runtimeconfig.dev.json
 C:\Users\sasha\source\repos\DeckSorterTests\bin\Debug\net5.0\DeckSorter.exe
+C:\Users\sasha\source\repos\test-task\DeckSorterTests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\sasha\source\repos\test-task\DeckSorterTests\obj\Debug\net5.0\DeckSorterTests.csproj.AssemblyReference.cache
+C:\Users\sasha\source\repos\test-task\DeckSorterTests\obj\Debug\net5.0\DeckSorterTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\source\repos\test-task\DeckSorterTests\obj\Debug\net5.0\DeckSorterTests.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\test-task\DeckSorterTests\obj\Debug\net5.0\DeckSorterTests.AssemblyInfo.cs
+C:\Users\sasha\source\repos\test-task\DeckSorterTests\obj\Debug\net5.0\DeckSorterTests.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\test-task\DeckSorterTests\obj\Debug\net5.0\DeckSorterTests.dll
+C:\Users\sasha\source\repos\test-task\DeckSorterTests\obj\Debug\net5.0\ref\DeckSorterTests.dll
+C:\Users\sasha\source\repos\test-task\DeckSorterTests\obj\Debug\net5.0\DeckSorterTests.pdb

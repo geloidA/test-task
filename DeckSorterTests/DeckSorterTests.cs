@@ -26,7 +26,7 @@ namespace DeckSorterTests
                 .ToList()
                 .Count);
 
-            var orderedDeck = deckSorter.GetOrderedDeck("casual");
+            var orderedDeck = deckSorter.GetDeck("casual");
             var shuffledDeck = deckSorter.GetShuffledDeck("casual");
 
             Assert.AreNotEqual(orderedDeck.Cards, shuffledDeck.Cards);
@@ -45,7 +45,7 @@ namespace DeckSorterTests
         public void GetDeckThrowsExceptionIfDeckNotExist()
         {
             var deckSorter = new DeckSorter.DeckSorter(new SimpleShuffle());
-            Assert.Throws<KeyNotFoundException>(() => deckSorter.GetOrderedDeck("test"));
+            Assert.Throws<KeyNotFoundException>(() => deckSorter.GetDeck("test"));
         }
 
         [Test]
